@@ -1,0 +1,73 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Ignore Android Studio specific files
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+
+# Ignore build output
+/build/
+*/build/
+
+# Ignore Kotlin specific files
+*.kts
+
+# Ignore Gradle wrapper files
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+
+# Ignore log files
+*.log
+
+# Ignore generated files
+/captures/
+/output.json
+
+# Ignore test files
+/test-results/
+*/test-results/
+
+# Ignore Android specific files
+*.apk
+*.ap_
+*.aab
+/output/
+
+# Ignore debug files
+*.orig
+*.rej
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+
+# Ignore compiled code
+*.class
+
+# Ignore IntelliJ IDEA specific files
+*.iws
+*.ipr
+out/
+
+# Ignore build directories for module libraries
+**/build/
+
+# Ignore GitHub secrets
+secrets.env
